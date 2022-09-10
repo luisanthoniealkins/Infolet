@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/id_infolet_navigation_menu_home"
+            android:icon="@drawable/ic_vector_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/id_infolet_navigation_menu_wallet"
+            android:icon="@drawable/ic_vector_menu_wallet"
+            android:title="Wallet" />
+        <item
+            android:id="@+id/id_infolet_navigation_menu_transaction"
+            android:icon="@drawable/ic_vector_menu_transaction"
+            android:title="Transaction" />
+        <item
+            android:id="@+id/id_infolet_navigation_menu_money_report"
+            android:icon="@drawable/ic_vector_money_menu_report"
+            android:title="Money report" />
+        <item
+            android:id="@+id/id_infolet_navigation_menu_graph"
+            android:icon="@drawable/ic_vector_menu_graph"
+            android:title="Chart and Graph" />
+        <item
+            android:id="@+id/id_infolet_navigation_menu_setting"
+            android:icon="@drawable/ic_vector_menu_setting"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/id_infolet_navigation_menu_send"
+                android:icon="@drawable/ic_vector_menu_send"
+                android:title="Send" />
+            <item
+                android:id="@+id/id_infolet_navigation_menu_share"
+                android:icon="@drawable/ic_vector_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/id_infolet_dialog_old_balance_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:text="Old Balance"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/id_infolet_dialog_old_balance_textview_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_infolet_dialog_old_balance_textview"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/id_infolet_dialog_new_balance_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_infolet_dialog_old_balance_textview_field"
+        android:layout_marginTop="10dp"
+        android:text="New Balance"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/id_infolet_dialog_new_balance_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_infolet_dialog_new_balance_textview"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:hint="balance"
+        android:inputType="numberDecimal" />
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">InfoLet</string>
+    <string name="name">Title</string>
+    <string name="transaction_name">transaction name</string>
+    <string name="category">Category : </string>
+    <string name="price">Price(Rp) : </string>
+    <string name="hint_price">price</string>
+    <string name="hint_category">category</string>
+    <string name="to_first">To first</string>
+    <string name="to_last">To last</string>
+    <string name="date_picker_title">Date of Transaction:</string>
+    <string name="time_picker_title">Time of Transaction:</string>
+    <string name="balance_picker_title">Set Initial Balance</string>
+    <string name="new_expense">New Transaction</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="delete_transaction">Delete Transaction</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="transactions">Transactions</string>
+    <string name="wallet">Wallet</string>
+    <string name="textview_balance">Balance</string>
+    <string name="textview_balance_field">balance</string>
+    <string name="textview_today_income">Today income</string>
+    <string name="textview_today_expense">Today expense</string>
+    <string name="textview_difference">Difference</string>
+    <string name="transaction_type">Transaction Type :</string>
+    <string name="pay">Payment Method</string>
+
+    <plurals name="subtitle_plural">
+        <item quantity="one">%1$d transaction</item>
+        <item quantity="other">%1$d transactions</item>
+    </plurals>
+
+    <string-array name="transaction_category_income">
+
+        <item>Salary</item>
+        <item>Award</item>
+        <item>Grant</item>
+        <item>Lottery</item>
+        <item>Investment</item>
+
+    </string-array>
+
+    <string-array name="transaction_category_expense">
+
+        <item>Food</item>
+        <item>Transportation</item>
+        <item>Home</item>
+        <item>Car</item>
+        <item>Entertainment</item>
+        <item>Shopping</item>
+        <item>Health</item>
+        <item>Pet</item>
+        <item>Beauty</item>
+        <item>Travel</item>
+        <item>Education</item>
+        <item>Other</item>
+
+    </string-array>
+
+    <string-array name="transaction_type">
+
+        <item>Income</item>
+        <item>Expense</item>
+
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation view</string>
+    <string name="navigation_drawer_close">Close navigation view</string>
+    <string name="currency">Currency</string>
+
+
+</resources>
